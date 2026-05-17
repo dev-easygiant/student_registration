@@ -1,0 +1,20 @@
+
+
+student_registration/
+├── .htaccess                 # Security rules (optional)
+├── config/
+│   └── database.php          # Database connection settings
+├── assets/
+│   ├── css/
+│   │   └── style.css         # All custom styles
+│   ├── js/
+│   │   └── script.js         # All JavaScript logic
+│   └── images/
+│       ├── logo.png          # (Place your logo here)
+│       └── ...
+├── uploads/                  # For file uploads (if any)
+├── index.php                 # Main registration page
+├── register.php              # Form submission handler
+├── view_students.php         # View registered students (optional)
+├── database.sql              # SQL to create tables
+└── index_backup.html         # (Optional) backup template
